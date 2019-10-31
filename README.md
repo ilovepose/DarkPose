@@ -12,9 +12,7 @@
 We will release the training and testing code and the pretrained model at this repository :)
 
 ## Introduction
-This work fills the gap by studying the coordinate representation with a particular focus on the heatmap.  
-We formulate a novel Distribution-Aware coordinate Representation of Keypoint (DARK) method.  
-Serving as a model-agnostic plug-in, DARK significantly improves the performance of a variety of state-of-the-art human pose estimation models.  
+&ensp; &ensp; This work fills the gap by studying the coordinate representation with a particular focus on the heatmap. We formulate a novel Distribution-Aware coordinate Representation of Keypoint (DARK) method. Serving as a model-agnostic plug-in, DARK significantly improves the performance of a variety of state-of-the-art human pose estimation models!
 
 ![Illustrating the architecture of the proposed DARK](/figures/DARK.png)
 
