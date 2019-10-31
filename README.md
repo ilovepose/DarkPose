@@ -1,7 +1,7 @@
 # Distribution Aware Coordinate Representation for Human Pose Estimation
 
 <p align="center">
-<b><i>Serving as a model-agnostic plug-in, DARK significantly improves the performance of a varietyof state-of-the-art human pose estimation models! </i></b>
+<b><i>Serving as a model-agnostic plug-in, DARK significantly improves the performance of a variety of state-of-the-art human pose estimation models! </i></b>
 </p>
 
 ## News
