@@ -8,8 +8,6 @@
 * \[2019/10/14\] DarkPose is now on [ArXiv](https://arxiv.org/abs/1910.06278). We will also release code and models, stay tuned!
 * \[2019/10/27\] DarkPose achieve 76.4 on the COCO test-challenge (2nd place entry of COCO Keypoints Challenge ICCV 2019)!
 ## Introduction
-    
-This is an official pytorch implementation of [*Distribution Aware Coordinate Representation for Human Pose Estimation*](https://arxiv.org/abs/1910.06278). 
 
 This work fills the gap by studying the coordinate representation with a particular focus on the heatmap.
 
