@@ -95,8 +95,6 @@ If you use our code or models in your research, please cite with:
     }
 ```
 
-### Discussion forum
-[ILovePose](http://www.ilovepose.cn)
 
 ## Acknowledgement
 Thanks for the open-source HRNet
