@@ -5,12 +5,16 @@
 </p>
 
 ## News
-* \[2019/10/14\] DarkPose is now on [ArXiv](https://arxiv.org/abs/1910.06278). We will also release code and models, stay tuned!
-* \[2019/10/15\] [DarkPose Project Page](https://ilovepose.github.io/coco/) is created.
+* \[2019/10/14\] DarkPose is now on [ArXiv](https://arxiv.org/abs/1910.06278).
+* \[2019/10/15\] [Project page](https://ilovepose.github.io/coco/) is created.
 * \[2019/10/27\] DarkPose achieve **76.4** on the COCO test-challenge (**2nd place entry** of COCO Keypoints Challenge ICCV 2019)!
-## Introduction
 
-This work fills the gap by studying the coordinate representation with a particular focus on the heatmap.
+We will release the training and testing code and the pretrained model at this repository :)
+
+## Introduction
+This work fills the gap by studying the coordinate representation with a particular focus on the heatmap.  
+We formulate a novel Distribution-Aware coordinate Representation of Keypoint (DARK) method.  
+Serving as a model-agnostic plug-in, DARK significantly improves the performance of a variety of state-of-the-art human pose estimation models.  
 
 ![Illustrating the architecture of the proposed DARK](/figures/DARK.png)
 
