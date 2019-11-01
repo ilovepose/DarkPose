@@ -68,12 +68,12 @@ We will release the training and testing code and the pretrained model at this r
 - \+ means using model ensemble.
 
 ### Results on MPII val
-| PCKh | Baseline             | Head | Shoulder | Elbow | Wrist |  Hip | Knee | Ankle |
-|------|----------------------|------|----------|-------|-------|------|------|-------|
-| 0.5  | HRNet_w32            | 97.1 | 95.9 | 90.3 | 86.5 | 89.1 | 87.1 | 83.3 | 90.3 |
-| 0.5  | **HRNet_w32 + DARK** | 97.2 | 95.9 | 91.2 | 86.7 | 89.7 | 86.7 | 84.0 | 90.6 |
-| 0.1  | HRNet_w32            | 51.1 | 42.7 | 42.0 | 41.6 | 17.9 | 29.9 | 31.0 | 37.7 |
-| 0.1  | **HRNet_w32 + DARK** | 55.2 | 47.8 | 47.4 | 45.2 | 20.1 | 33.4 | 35.4 | 42.0 |
+| PCKh | Baseline             | Head | Shoulder | Elbow | Wrist |  Hip | Knee | Ankle | Mean  |
+|------|----------------------|------|----------|-------|-------|------|------|-------|-------|
+| 0.5  | HRNet_w32            | 97.1 |   95.9   | 90.3  | 86.5  | 89.1 | 87.1 | 83.3  | 90.3  |
+| 0.5  | **HRNet_w32 + DARK** | 97.2 |   95.9   | 91.2  | 86.7  | 89.7 | 86.7 | 84.0  | 90.6  |
+| 0.1  | HRNet_w32            | 51.1 |   42.7   | 42.0  | 41.6  | 17.9 | 29.9 | 31.0  | 37.7  |
+| 0.1  | **HRNet_w32 + DARK** | 55.2 |   47.8   | 47.4  | 45.2  | 20.1 | 33.4 | 35.4  | 42.0  |
 
 ### Note:
 - Flip test is used.
