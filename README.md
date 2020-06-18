@@ -89,11 +89,12 @@ We will release the training and testing code and the pretrained model at this r
 If you use our code or models in your research, please cite with:
 
 ```
-@misc{feng2019,
-    author = {Feng Zhang and Xiatian Zhu and Hanbin Dai and Mao Ye and Ce Zhu},
+@InProceedings{Zhang_2020_CVPR,
+    author = {Zhang, Feng and Zhu, Xiatian and Dai, Hanbin and Ye, Mao and Zhu, Ce},
     title = {Distribution-Aware Coordinate Representation for Human Pose Estimation},
-    year = {2019},
-    eprint = {arXiv:1910.06278},
-    }
+    booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month = {June},
+    year = {2020}
+}
 ```
 
