@@ -9,6 +9,7 @@
 * \[2019/10/15\] [Project page](https://ilovepose.github.io/coco/) is created.
 * \[2019/10/27\] DarkPose achieve **76.4** on the COCO test-challenge (**2nd place entry** of COCO Keypoints Challenge ICCV 2019)!
 * \[2020/02/24\] DarkPose accepted by CVPR2020.
+* \[2020/06/17\] Code is released.
 
 We will release the training and testing code and the pretrained model at this repository :)
 
