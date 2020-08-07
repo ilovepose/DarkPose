@@ -10,8 +10,65 @@
 * \[2019/10/27\] DarkPose achieve **76.4** on the COCO test-challenge (**2nd place entry** of COCO Keypoints Challenge ICCV 2019)!
 * \[2020/02/24\] DarkPose accepted by CVPR2020.
 * \[2020/06/17\] Code is released.
+* \[2020/08/07\] [Pretrained models](https://drive.google.com/drive/folders/14kAA1zXuKODYgrRiQmKnVcipbY7RedVV?usp=sharing) are provided.
 
 We will release the training and testing code and the pretrained model at this repository :)
+
+## Quick start
+
+### 1. Preparation
+
+#### 1.1 Prepare the dataset
+For the MPII dataset, the original annotation files are in matlab format. We have converted them into json format, you also need to download them from [OneDrive](https://1drv.ms/f/s!AhIXJn_J-blW00SqrairNetmeVu4) or [GoogleDrive](https://drive.google.com/drive/folders/1En_VqmStnsXMdldXA6qpqEyDQulnmS3a?usp=sharing).
+Extract them under `{POSE_ROOT}/data`, your directory tree should look like this:   
+```
+${POSE_ROOT}/data/mpii
+├── images
+└── mpii_human_pose_v1_u12_1.mat
+|—— annot
+|   |—— gt_valid.mat
+└── |—— test.json
+    |   |—— train.json
+    |   |—— trainval.json
+    |   |—— valid.json
+    └── images
+        |—— 000001163.jpg
+        |—— 000003072.jpg
+```
+
+For the COCO dataset, your directory tree should look like this:   
+```
+${POSE_ROOT}/data/coco
+├── annotations
+├── images
+│   ├── test2017
+│   ├── train2017
+│   └── val2017
+└── person_detection_results
+````
+
+### 1.2 Download the pretrained models
+
+[Pretrained models](https://drive.google.com/drive/folders/14kAA1zXuKODYgrRiQmKnVcipbY7RedVV?usp=sharing) are provided.
+
+### 1.3 Prepare the environment
+Setting the parameters in the file `prepare_env.sh` as follows:
+
+```bash
+# DATASET_ROOT=$HOME/datasets
+# COCO_ROOT=${DATASET_ROOT}/MSCOCO
+# MPII_ROOT=${DATASET_ROOT}/MPII
+# MODELS_ROOT=${DATASET_ROOT}/models
+```
+
+Then execute:
+
+```bash
+bash prepare_env.sh
+```
+
+If you like, you can [**prepare the environment step by step**](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch)
+
 
 ## Introduction
 &ensp; &ensp; This work fills the gap by studying the coordinate representation with a particular focus on the heatmap. We formulate a novel Distribution-Aware coordinate Representation of Keypoint (DARK) method. Serving as a model-agnostic plug-in, DARK significantly improves the performance of a variety of state-of-the-art human pose estimation models!
