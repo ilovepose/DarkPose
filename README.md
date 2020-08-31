@@ -23,28 +23,28 @@
 ## Main Results
 
 ### Results on COCO val2017 with detector having human AP of 56.4 on COCO val2017 dataset
-| Baseline           | Model      | Input size | #Params | GFLOPs |    AP | Ap .5 | AP .75 | AP (M) | AP (L) |    AR |
-|--------------------|------------|------------|---------|--------|-------|-------|--------|--------|--------|-------|
-| Hourglass(4 Blocks)             |            |  128×96 | 13.0M | 2.7 | 66.2 | 87.6 | 75.1 | 63.8 | 71.4 | 72.8 |
-| **Hourglass(4 Blocks) + DARK**  | [Download](https://drive.google.com/file/d/1IxQKztE2eXwhkYr6zGVhUJ991L_Mahs7/view?usp=sharing) |  128×96 | 13.0M | 2.7 | 69.6 | 87.8 | 77.0 | 67.0 | 75.4 | 75.7 |
-| Hourglass(8 Blocks)             |            |  128×96 | 25.1M | 4.9 | 67.6 | 88.3 | 77.4 | 65.2 | 73.0 | 74.0 |
-| **Hourglass(8 Blocks) + DARK**  | [Download](https://drive.google.com/file/d/17p7Ohj2mmRdv-Nsi9jlYeF8ehogNIkrK/view?usp=sharing) |  128×96 | 25.1M | 4.9 | 70.8 | 87.9 | 78.3 | 68.3 | 76.4 | 76.6 |
-| SimpleBaseline-R50              |            |  128×96 | 34.0M | 2.3 | 59.3 | 85.5 | 67.4 | 57.8 | 63.8 | 66.6 |
-| **SimpleBaseline-R50 + DARK**   | [Download](https://drive.google.com/file/d/18hEq3UqT4k7a5p6mQuDZMmA54w9XJbxg/view?usp=sharing) |  128×96 | 34.0M | 2.3 | 62.6 | 86.1 | 70.4 | 60.4 | 67.9 | 69.5 |
-| SimpleBaseline-R101             |            |  128×96 | 53.0M | 3.1 | 58.8 | 85.3 | 66.1 | 57.3 | 63.4 | 66.1 |
-| **SimpleBaseline-R101 + DARK**  | [Download](https://drive.google.com/file/d/10u-n7603O_gV5O25c-6JeGN6DMVG_WeJ/view?usp=sharing) |  128×96 | 53.0M | 3.1 | 63.2 | 86.2 | 71.1 | 61.2 | 68.5 | 70.0 |
-| SimpleBaseline-R152             |            |  128×96 | 68.6M | 3.9 | 60.7 | 86.0 | 69.6 | 59.0 | 65.4 | 68.0 |
-| **SimpleBaseline-R152 + DARK**  | [Download](https://drive.google.com/file/d/10u-n7603O_gV5O25c-6JeGN6DMVG_WeJ/view?usp=sharing) |  128×96 | 68.6M | 3.9 | 63.1 | 86.2 | 71.6 | 61.3 | 68.1 | 70.0 |
-| HRNet-W32                       |            |  128×96 | 28.5M | 1.8 | 66.9 | 88.7 | 76.3 | 64.6 | 72.3 | 73.7 |
-| **HRNet-W32 + DARK**            | [Download](https://drive.google.com/file/d/1DFkqPw5bWJ1fRsUlZz6I-w3v51tnMfsA/view?usp=sharing) |  128×96 | 28.5M | 1.8 | 70.7 | 88.9 | 78.4 | 67.9 | 76.6 | 76.7 |
-| HRNet-W48                       |            |  128×96 | 63.6M | 3.6 | 68.0 | 88.9 | 77.4 | 65.7 | 73.7 | 74.7 |
-| **HRNet-W48 + DARK**            | [Download](https://drive.google.com/file/d/1UKNC5OUdjfl-kafULCipNyr8GAJGDbBM/view?usp=sharing) |  128×96 | 63.6M | 3.6 | 71.9 | 89.1 | 79.6 | 69.2 | 78.0 | 77.9 |
-| HRNet-W32                       |            | 256×192 | 28.5M | 7.1 | 74.4 | 90.5 | 81.9 | 70.8 | 81.0 | 79.8 |
-| **HRNet-W32 + DARK**            | [Download](https://drive.google.com/file/d/1ceZ878F5N5XEzQCAlLi4rjProUsFmhhr/view?usp=sharing) | 256×192 | 28.5M | 7.1 | 75.6 | 90.5 | 82.1 | 71.8 | 82.8 | 80.8 |
-| HRNet-W32                       |            | 384×288 | 28.5M | 16.0 | 75.8 | 90.6 | 82.5 | 72.0 | 82.7 | 80.9 |
-| **HRNet-W32 + DARK**            | [Download](https://drive.google.com/file/d/182wjtIH79qRPEuOmTC4ggtG8hK5HsJ5J/view?usp=sharing) | 384×288 | 28.5M | 16.0 | 76.6 | 90.7 | 82.8 | 72.7 | 83.9 | 81.5 |
-| HRNet-W48                       |            | 384×288 | 63.6M | 32.9 | 76.3 | 90.8 | 82.9 | 72.3 | 83.4 | 81.2 |
-| **HRNet-W48 + DARK**            | [Download](https://drive.google.com/file/d/1TKvk0R_qrWV3UeSTawUYM5Burp-lOmss/view?usp=sharing) | 384×288 | 63.6M | 32.9 | 76.8 | 90.6 | 83.2 | 72.8 | 84.0 | 81.7 |
+| Baseline           | Input size | #Params | GFLOPs |    AP | Ap .5 | AP .75 | AP (M) | AP (L) |    AR |
+|--------------------|------------|---------|--------|-------|-------|--------|--------|--------|-------|
+| Hourglass(4 Blocks)             |  128×96 | 13.0M | 2.7 | 66.2 | 87.6 | 75.1 | 63.8 | 71.4 | 72.8 |
+| **Hourglass(4 Blocks) + DARK**  |  128×96 | 13.0M | 2.7 | 69.6 | 87.8 | 77.0 | 67.0 | 75.4 | 75.7 |
+| Hourglass(8 Blocks)             |  128×96 | 25.1M | 4.9 | 67.6 | 88.3 | 77.4 | 65.2 | 73.0 | 74.0 |
+| **Hourglass(8 Blocks) + DARK**  |  128×96 | 25.1M | 4.9 | 70.8 | 87.9 | 78.3 | 68.3 | 76.4 | 76.6 |
+| SimpleBaseline-R50              |  128×96 | 34.0M | 2.3 | 59.3 | 85.5 | 67.4 | 57.8 | 63.8 | 66.6 |
+| **SimpleBaseline-R50 + DARK**   |  128×96 | 34.0M | 2.3 | 62.6 | 86.1 | 70.4 | 60.4 | 67.9 | 69.5 |
+| SimpleBaseline-R101             |  128×96 | 53.0M | 3.1 | 58.8 | 85.3 | 66.1 | 57.3 | 63.4 | 66.1 |
+| **SimpleBaseline-R101 + DARK**  |  128×96 | 53.0M | 3.1 | 63.2 | 86.2 | 71.1 | 61.2 | 68.5 | 70.0 |
+| SimpleBaseline-R152             |  128×96 | 68.6M | 3.9 | 60.7 | 86.0 | 69.6 | 59.0 | 65.4 | 68.0 |
+| **SimpleBaseline-R152 + DARK**  |  128×96 | 68.6M | 3.9 | 63.1 | 86.2 | 71.6 | 61.3 | 68.1 | 70.0 |
+| HRNet-W32                       |  128×96 | 28.5M | 1.8 | 66.9 | 88.7 | 76.3 | 64.6 | 72.3 | 73.7 |
+| **HRNet-W32 + DARK**            |  128×96 | 28.5M | 1.8 | 70.7 | 88.9 | 78.4 | 67.9 | 76.6 | 76.7 |
+| HRNet-W48                       |  128×96 | 63.6M | 3.6 | 68.0 | 88.9 | 77.4 | 65.7 | 73.7 | 74.7 |
+| **HRNet-W48 + DARK**            |  128×96 | 63.6M | 3.6 | 71.9 | 89.1 | 79.6 | 69.2 | 78.0 | 77.9 |
+| HRNet-W32                       | 256×192 | 28.5M | 7.1 | 74.4 | 90.5 | 81.9 | 70.8 | 81.0 | 79.8 |
+| **HRNet-W32 + DARK**            | 256×192 | 28.5M | 7.1 | 75.6 | 90.5 | 82.1 | 71.8 | 82.8 | 80.8 |
+| HRNet-W32                       | 384×288 | 28.5M | 16.0 | 75.8 | 90.6 | 82.5 | 72.0 | 82.7 | 80.9 |
+| **HRNet-W32 + DARK**            | 384×288 | 28.5M | 16.0 | 76.6 | 90.7 | 82.8 | 72.7 | 83.9 | 81.5 |
+| HRNet-W48                       | 384×288 | 63.6M | 32.9 | 76.3 | 90.8 | 82.9 | 72.3 | 83.4 | 81.2 |
+| **HRNet-W48 + DARK**            | 384×288 | 63.6M | 32.9 | 76.8 | 90.6 | 83.2 | 72.8 | 84.0 | 81.7 |
 
 ### Note:
 - Flip test is used.
@@ -81,7 +81,6 @@
 - Flip test is used.
 - Input size is 256x256
 - GFLOPs is for convolution and linear layers only.
-- 
 
 
 ## Quick start
@@ -111,9 +110,9 @@ For the COCO dataset, your directory tree should look like this:
 ${POSE_ROOT}/data/coco
 ├── annotations
 ├── images
-│   ├── test2017
-│   ├── train2017
-│   └── val2017
+│   ├── test2017
+│   ├── train2017
+│   └── val2017
 └── person_detection_results
 ````
 
