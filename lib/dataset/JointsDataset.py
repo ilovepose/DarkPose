@@ -281,7 +281,7 @@ class JointsDataset(Dataset):
 
 
     def adjust_target_weight(self, joint, target_weight, tmp_size):
-        feat_stride = self.image_size / self.heatmap_size
+        # feat_stride = self.image_size / self.heatmap_size
         mu_x = joint[0]
         mu_y = joint[1]
         # Check that any part of the gaussian is in-bounds
