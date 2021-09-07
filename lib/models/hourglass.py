@@ -58,6 +58,7 @@ class Hourglass(nn.Module):
         self.depth = depth
         self.block = block
         self.upsample = nn.Upsample(scale_factor=2)
+        self.last_upsample = nn.Upsample(size=[4,3])
         self.hg = self._make_hour_glass(block, num_blocks, planes, depth)
 
     def _make_residual(self, block, num_blocks, planes):
@@ -87,8 +88,13 @@ class Hourglass(nn.Module):
         else:
             low2 = self.hg[n-1][3](low1)
         low3 = self.hg[n-1][2](low2)
-        up2 = self.upsample(low3)
+        
+        if n > 1:
+            up2 = self.upsample(low3)
+        else:
+            up2 = self.last_upsample(low3)
         out = up1 + up2
+
         return out
 
     def forward(self, x):
